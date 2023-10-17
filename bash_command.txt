@@ -1,0 +1,28 @@
+1. count the files in a folder
+	ls lorem | wc -l
+
+2. count the line of a file
+        sed -n '$=' lorem/sed.txt
+
+3. list files of a directory(lorem) wiht extension 'txt'
+       ls lorem/*.txt
+
+4. find who is the user of the system
+       whoami
+
+5. current working directory
+       pwd
+
+6.  replace 'et' with 'ET' in a text file
+       sed -i 's\et\ET\g' at.txt
+
+7.  add a line at the end of the file in a folder
+       echo 'Hello Homini lupus' >> lorem-copy/sed.txt    
+
+8. show first three line of a text file
+       head -3 lorem-copy/sed.txt
+
+9. show last three line of a text file
+       tail -n 3 lorem-copy/sed.txt
+
+10. cat lorem.txt
